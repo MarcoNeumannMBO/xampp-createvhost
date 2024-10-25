@@ -7,8 +7,8 @@ read -p "Enter the project name (will be used as the folder name, in Apache, and
 projecturl="$projectname.local"
 
 # Define XAMPP paths
-htdocs_path="/Applications/XAMPP/xamppfiles/htdocs/apps"
-apache_vhost_file="/Applications/XAMPP/xamppfiles/etc/extra/httpd-vhosts.conf"
+htdocs_path="/Applications/XAMPP/htdocs/apps"
+apache_vhost_file="/Applications/XAMPP/etc/extra/httpd-vhosts.conf"
 hosts_file="/etc/hosts"
 
 # Check if XAMPP is installed
