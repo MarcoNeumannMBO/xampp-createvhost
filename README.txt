@@ -21,10 +21,21 @@ and updates the /etc/hosts file for local access.
 
 ## Installation Instructions
 
+FIRST:  Enable Virtual Hosts in the Apache Main Configuration
+
+a. Open the main Apache configuration file:
+   sudo nano /Applications/XAMPP/xamppfiles/etc/httpd.conf
+
+b. Find the line that includes #Include etc/extra/httpd-vhosts.conf 
+   and remove the # to uncomment it. 
+   This will load your virtual host configuration.
+
+NEXT:
+
 1. **Clone this repository:**
 
    ```
-   COMMAND: git clone https://github.com/yourusername/xampp-vhost-setup.git
+   COMMAND: git clone https://github.com/MarcoNeumannMBO/xampp-vhost-setup.git
    ```
 
 2. **Make the script executable:**
